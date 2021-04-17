@@ -8,13 +8,12 @@ router.get("/api/notes", (req, res) => {
 
   let dataParse = JSON.parse(data);
 
-  //we need to send json back though
-  //res.json() only sends back a json but the JSON.parse is actually parsing the data string into a json object
   res.json(dataParse);
 });
 
 router.post("/api/notes", (req, res) => {
   let newNote = req.body;
+
   let data = JSON.parse(fs.readFileSync("db/db.json"));
 
   data.push(newNote);
