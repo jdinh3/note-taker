@@ -19,7 +19,7 @@ router.post("/api/notes", (req, res) => {
   data.push(newNote);
 
   fs.writeFileSync("db/db.json", JSON.stringify(data));
-  res.sendStatus(200);
+  res.json(data);
 });
 
 module.exports = router;
