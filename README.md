@@ -5,5 +5,5 @@
   Here are screen shots of the application. [Homepage](assets/localhost_8080_(webpage).png)
   [Notes Page](assets/localhost_8080_notes(webpage)%20(1).png)
 
-Here is the deployed website. [Site](https://stark-sands-70802.herokuapp.com/notes)
+Here is the deployed website. [Site](https://stark-sands-70802.herokuapp.com)
 
